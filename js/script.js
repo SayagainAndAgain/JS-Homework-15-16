@@ -15,8 +15,6 @@ var search = function () {
 	        $.each(data.hits, function(i, hit){ 
 	        	var img = document.createElement('img');
 	        	img.src = hit.webformatURL;
-	        	img.style.width = '25%';
-	        	img.style.padding = '10px';
 	        	$('.pictures')[0].appendChild(img);
 	        });
 	    }

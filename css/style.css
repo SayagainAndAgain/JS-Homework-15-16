@@ -6,3 +6,11 @@
 .search{
 	margin: 30px;
 }
+.pictures{
+	margin: 0 auto;
+	width: 70%;
+}
+.pictures img{
+	width: 25%;
+	padding: 10px;
+}
